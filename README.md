@@ -13,7 +13,28 @@
 ## project structure:
 
 ```
-
+├── blockchain
+│   ├── blockchain.go
+│   ├── block.go
+│   ├── chain_iter.go
+│   ├── merkle.go
+│   ├── merkle_test.go
+│   ├── proof.go
+│   ├── transaction.go
+│   ├── tx.go
+│   └── utxo.go
+├── cli
+│   └── cli.go
+├── go.mod
+├── go.sum
+├── main.go
+├── network
+│   └── network.go
+├── README.md
+└── wallet
+    ├── utils.go
+    ├── wallet.go
+    └── wallets.go
 ```
 
 ## installation
@@ -21,13 +42,23 @@
 - use git clone:
 
 ```
-git clone https://github.com/kenjitheman/kanojo
+git clone https://github.com/kenjitheman/shinjiru
 ```
 
 ## usage
 
+- use go run:
+
+```
+cd cmd
+go run main.go
 ```
 
+- or use docker:
+
+```
+docker build -t your_image_name .
+docker run -d -p 8080:80 your_image_name
 ```
 
 ## contributing
