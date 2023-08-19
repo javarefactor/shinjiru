@@ -1,4 +1,4 @@
-<h2 align="center">shinjiru - blockchain in golang</h2>
+<h2 align="center">shinjiru - blockchain implementation in golang</h2>
 
 ###
 
@@ -8,7 +8,21 @@
 
 ###
 
-#### in dev stage rn | is not done yet
+## project features:
+
+- `low level badger db (uses leveldb under the hood)`
+
+- `using proof of work`
+
+- `merkle tree`
+
+- `cli tool`
+
+- `can be run using docker`
+
+#### const difficulty (10) 
+
+- you can use some difficulty algorithms to calculate the difficulty
 
 ## project structure:
 
@@ -25,12 +39,17 @@
 │   └── utxo.go
 ├── cli
 │   └── cli.go
+├── cmd
+│   └── main.go
+├── Dockerfile
 ├── go.mod
 ├── go.sum
-├── main.go
 ├── network
 │   └── network.go
 ├── README.md
+├── tmp
+│   └── blocks
+│       └── keep.txt
 └── wallet
     ├── utils.go
     ├── wallet.go
