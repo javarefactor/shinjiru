@@ -1,4 +1,4 @@
-<h2 align="center">shinjiru - blockchain implementation in golang</h2>
+## blockchain implementation in golang
 
 ###
 
@@ -26,7 +26,7 @@
 
 ## project structure:
 
-```
+```go
 ├── blockchain
 │   ├── blockchain.go
 │   ├── block.go
@@ -58,24 +58,20 @@
 
 ## installation
 
-- use git clone:
-
-```
+```shell
 git clone https://github.com/kenjitheman/shinjiru
 ```
 
 ## usage
 
-- use go run:
-
-```
+```shell
 cd cmd
 go run main.go
 ```
 
 - or use docker:
 
-```
+```shell
 docker build -t your_image_name .
 docker run -d -p 8080:80 your_image_name
 ```
