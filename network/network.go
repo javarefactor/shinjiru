@@ -14,7 +14,7 @@ import (
 
 	"github.com/vrecan/death/v3"
 
-	"main.go/blockchain"
+	"github.com/kenjitheman/shinjiru/blockchain"
 )
 
 const (

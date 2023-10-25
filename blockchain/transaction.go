@@ -13,7 +13,7 @@ import (
 	"math/big"
 	"strings"
 
-	"main.go/wallet"
+	"github.com/kenjitheman/shinjiru/wallet"
 )
 
 type Transaction struct {

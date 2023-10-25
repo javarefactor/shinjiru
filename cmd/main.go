@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"main.go/cli"
+	"github.com/kenjitheman/shinjiru/cli"
 )
 
 func main() {
